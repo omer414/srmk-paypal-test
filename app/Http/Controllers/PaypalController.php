@@ -72,4 +72,9 @@ class PaypalController extends Controller
 
         Log::info('IPN RESPONSE:'.print_r($response , true));
     }
+
+    public function showLog(){
+        //storage_path('logs/laravel.log');
+        echo 'hi there';
+    }
 }

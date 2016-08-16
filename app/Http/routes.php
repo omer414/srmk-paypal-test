@@ -19,4 +19,5 @@ Route::get('/', function () {
 Route::get('payment/expresscheckout', 'PaypalController@ExpressCheckout');
 Route::get('payment/subscribe', 'PaypalController@Subscribe');
 Route::get('payment/success', 'PaypalController@Success');
-Route::post('ipn-resolver','PayPalController@Notify');
+Route::get('payment/showLog', 'PaypalController@Success');
+Route::post('payment/notify','PayPalController@Notify');
