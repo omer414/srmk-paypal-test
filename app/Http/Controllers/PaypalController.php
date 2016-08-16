@@ -74,7 +74,7 @@ class PaypalController extends Controller
     }
 
     public function showLog(){
-        //storage_path('logs/laravel.log');
-        echo 'hi there';
+        $content = file_get_contents ( storage_path('logs/laravel.log') );
+        echo $content;
     }
 }
