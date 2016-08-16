@@ -23,5 +23,5 @@ return [
 
     'payment_action' => 'Sale', // Can Only Be 'Sale', 'Authorization', 'Order'
     'currency' => 'USD',
-    'notify_url' => 'http://6ce91deb.ngrok.io/srmklive-laravel-paypal/public/ipn-resolver', // Change this accordingly for your application.
+    'notify_url' => 'http://phpstack-15617-53267-142418.cloudwaysapps.com/ipn-resolver', // Change this accordingly for your application.
 ];
